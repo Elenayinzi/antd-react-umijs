@@ -31,5 +31,6 @@ export default defineConfig({
     { component: '@/pages/404'}
   ],
   fastRefresh: {},
+  //mock: false
   //layout: {}
 });

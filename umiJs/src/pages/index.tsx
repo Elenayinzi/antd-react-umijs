@@ -11,19 +11,21 @@ export default function IndexPage(props: any) {
   //   },2000)
   // },[])  //加一个空数组可以让代码不出现无限循环
 
-  const getData = () => {
-    console.log(111)
+  const getData = async () => {
     //请求数据
-    request('/api/index').then( res1 => {
-      console.log(res1)
-    })
+    // request('/api/user').then( res => {
+    //   console.log(res)
+    // })
+    const data = await request('/api/tags')
+    console.log(data)
   }
 
   return (
     <div>
       <h1 className={styles.title}>Page index</h1>
       <DatePicker />
-      <button onClick={() =>getData()}>点击获取数据</button>
+      <button onClick={getData}>点击获取数据</button>
     </div>
-  );
+  )
+
 }
