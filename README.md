@@ -42,7 +42,7 @@
 
     9.Mock数据: 前端模拟数据ts文件;引入Mock.js，提升mock数据能力;yarn add mockjs;npm i --save-dev @types/mockjs;MOCK=none umi dev配置环境变量临时关闭mock功能;"start:nomock": "MOCK=none umi dev";exclude属性可以配置指定关闭页面；
 
-    10.
+    10.Dva整合
 ## AntdPro框架学习p16-p21(11.22)
 ## todoList实战p22-p27(11.23)
 ## 项目实战p28-p60(11.24,25,26,28,29)
