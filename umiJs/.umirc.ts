@@ -1,7 +1,7 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  mfsu: {},
+  //mfsu: {},
   webpack5: {},
   hash: true,
   //base: '/admin/',
@@ -27,6 +27,10 @@ export default defineConfig({
         { path: '/user/four', component: '@/pages/user2'},
         { component: '@/pages/404'}
       ]
+    },
+    {
+      path: '/dva',
+      component: '@/pages/dva'
     },
     { component: '@/pages/404'}
   ],

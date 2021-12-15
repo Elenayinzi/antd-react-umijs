@@ -27,6 +27,7 @@
         h. proxy: {}; 解决跨域问题
         i. theme: {}; 修改antd默认变量的颜色
         j. routes: []; 路由配置
+        k.mfsu:{};开启mfsu可以大幅减少启动项目和热更新所需的时间
   
     6.路由配置
        a.单页面应用：页面地址的跳转都是在浏览器端完成的，不会重新请求服务端获取html，仅刷新局部资源，公共资源js,css仅需加载一次,单页面应用从头到尾它的html地址都是不变的，在单页面应用中，通常是由一个外部框架和一个一个组件组成的，界面之间的切换其实就是组件的移除和新组建的添加。
@@ -42,7 +43,7 @@
 
     9.Mock数据: 前端模拟数据ts文件;引入Mock.js，提升mock数据能力;yarn add mockjs;npm i --save-dev @types/mockjs;MOCK=none umi dev配置环境变量临时关闭mock功能;"start:nomock": "MOCK=none umi dev";exclude属性可以配置指定关闭页面；
 
-    10.Dva整合
+    10.Dva整合：dvaJS,基于redux的数据流方案，轻量级应用框架,更好的应用redux，安装：@umijs/preset-react中包含了@umijs/plugin-dva
 ## AntdPro框架学习p16-p21(11.22)
 ## todoList实战p22-p27(11.23)
 ## 项目实战p28-p60(11.24,25,26,28,29)
