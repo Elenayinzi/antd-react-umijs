@@ -45,9 +45,8 @@
 
     10.Dva整合：dvaJS,基于redux的数据流方案，轻量级应用框架,更好的应用redux，安装：@umijs/preset-react中包含了@umijs/plugin-dva
 
-    11.运行时配置:
+    11.运行时配置: 跑在浏览器端，约定 src/app.tsx 为运行时配置，在运行时才起作用
 ## AntdPro框架学习p16-p21(11.22)
 ## todoList实战p22-p27(11.23)
 ## 项目实战p28-p60(11.24,25,26,28,29)
 ## 项目发布p61-p63(30)
-

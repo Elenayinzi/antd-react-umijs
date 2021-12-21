@@ -26,7 +26,7 @@ export default {
     },  
     //更新 state    
     reducers: {
-        setTagsList(state, action) {
+        setTagsList(state:any, action:any) {
             return {...state, tagsList: action.payload}
         }
     }

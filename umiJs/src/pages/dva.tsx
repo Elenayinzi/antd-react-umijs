@@ -6,7 +6,7 @@ import React from 'react'
 import { connect } from 'umi'
 import { Button } from 'antd'
 
-const Dva = (props) => {
+const Dva = (props:any) => {
     const { dispatch } = props
     const list = props.tags.tagsList.list || []
     const getData = () => {
@@ -21,7 +21,7 @@ const Dva = (props) => {
             <h3>Dva的使用</h3>
             <Button onClick={getData}>获取标签列表</Button>
             {
-                list.map( (item, index) => {
+                list.map( (item:any, index:any) => {
                     return <p key={index}>{item.name}</p>
                 })
             }
