@@ -7,7 +7,7 @@
     1.地址：https://www.showdoc.com.cn/1207745568269674?page_id=6094279351627422
 
     2.请求地址：https://api.shop.eduwork.cn/
-## UmiJs知识学习p5-p15(11.19)
+## UmiJs知识学习p5-p15
     1.插件化的企业级前端应用框架
 
     2.初始化项目：yarn create @umijs/umi-app; yarn install; yarn start; yarn build;
@@ -43,10 +43,14 @@
 
     9.Mock数据: 前端模拟数据ts文件;引入Mock.js，提升mock数据能力;yarn add mockjs;npm i --save-dev @types/mockjs;MOCK=none umi dev配置环境变量临时关闭mock功能;"start:nomock": "MOCK=none umi dev";exclude属性可以配置指定关闭页面；
 
-    10.Dva整合：dvaJS,基于redux的数据流方案，轻量级应用框架,更好的应用redux，安装：@umijs/preset-react中包含了@umijs/plugin-dva
+    10.Dva整合：dvaJS,基于redux的数据流方案，轻量级应用框架,更好的应用redux，安装：yarn add @umijs/preset-react中包含了@umijs/plugin-dva
 
-    11.运行时配置: 跑在浏览器端，约定 src/app.tsx 为运行时配置，在运行时才起作用
-## AntdPro框架学习p16-p21(11.22)
-## todoList实战p22-p27(11.23)
-## 项目实战p28-p60(11.24,25,26,28,29)
-## 项目发布p61-p63(30)
+    11.运行时配置: 跑在浏览器端，约定写在 src/app.tsx 为运行时配置，在运行时才起作用
+
+    12.Umi UI: 安装命令：yarn add @umijs/preset-ui -D
+
+    13.
+## AntdPro框架学习p16-p21
+## todoList实战p22-p27
+## 项目实战p28-p60
+## 项目发布p61-p63

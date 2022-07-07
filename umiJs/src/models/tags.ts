@@ -1,9 +1,4 @@
-import { request } from 'umi';
-
-//请求数据
-const getTags = () => {
-    return request('/api/tags')
-}
+import { getTags } from '@/services/tags'
 
 export default {
     //调用model的时候，通过命名空间调用，不要和其他的model同名

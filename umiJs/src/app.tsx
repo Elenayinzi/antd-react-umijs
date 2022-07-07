@@ -5,7 +5,6 @@ export function patchRoutes({ routes }) {
       path: '/foo',
       component: require('@/pages/user1').default,
     });
-
     // extraRoutes.map( item => {
     //     routes.unshift({
     //         path: item.path,
@@ -20,5 +19,5 @@ export function render(oldRender) {
     extraRoutes = [
         {path: '/server', component: '/user2'}
     ]
-    oldRender()
+    oldRender();
 }

@@ -1,17 +1,4 @@
-import { defineConfig } from 'umi';
-
-export default defineConfig({
-  //mfsu: {},
-  webpack5: {},
-  hash: true,
-  //base: '/admin/',
-  // history: { 
-  //   type: 'hash'
-  // },
-  nodeModulesTransform: {
-    type: 'none',
-  },
-  routes: [
+export default [
     { path: '/', component: '@/pages/index' },
     { path: '/list', redirect: '/user/two' },
     {
@@ -33,8 +20,4 @@ export default defineConfig({
       component: '@/pages/dva'
     },
     { component: '@/pages/404'}
-  ],
-  fastRefresh: {},
-  //mock: false
-  //layout: {}
-});
+  ]
